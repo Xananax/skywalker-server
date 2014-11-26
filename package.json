@@ -1,0 +1,36 @@
+{
+  "name": "skywalker-server",
+  "version": "0.1.0",
+  "description": "automatically compile and serve files for rapid prototyping",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "dependencies": {
+    "browser-sync": "^1.7.1",
+    "skywalker-x": "^0.5.3",
+    "watch": "^0.13.0"
+  },
+  "devDependencies": {
+    "express": "^4.10.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Xananax/skywalker-server.git"
+  },
+  "keywords": [
+    "server",
+    "static",
+    "express",
+    "connect"
+  ],
+  "author": "xananax@yelostudio.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Xananax/skywalker-server/issues"
+  },
+  "homepage": "https://github.com/Xananax/skywalker-server"
+}
